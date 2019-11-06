@@ -1,0 +1,60 @@
+.maincontainer {
+  background-color: black;
+  padding: 30px;
+  justify-content: center;
+}
+.textcont{
+
+}
+
+.imgcont {
+
+}
+h1 {
+  color: MediumPurple;
+  font-family: fantasy;
+}
+
+#part1 {
+  color: GoldenRod
+}
+#part2 {
+  color: Indigo
+}
+#part3 {
+  color: DarkTurquoise
+}
+
+body {
+  font-family: courier;
+  background-image: url("cheez its.jpg");
+  background-size: cover;
+  padding:30px;
+}
+
+
+.nav {
+  width:100%;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav ul li {
+  display:inline-block;
+  height: 120px;
+  width: 120px;
+  background: white;
+  color: blue;
+  float: center;
+  opacity: .8;
+  border-radius: 50%;
+  color: GoldenRod;
+  font-size: 20px;
+
+}
+
+.nav ul li:hover {
+  opacity: 40
+}
